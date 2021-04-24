@@ -133,32 +133,6 @@ endif
 let g:gruvbox_invert_selection='0'
 
 
-" --- vim go (polyglot) settings.
-let g:go_highlight_build_constraints = 1
-let g:go_highlight_extra_types = 1
-let g:go_highlight_fields = 1
-let g:go_highlight_functions = 1
-let g:go_highlight_methods = 1
-let g:go_highlight_operators = 1
-let g:go_highlight_structs = 1
-let g:go_highlight_types = 1
-let g:go_highlight_function_parameters = 1
-let g:go_highlight_function_calls = 1
-let g:go_highlight_generate_tags = 1
-let g:go_highlight_format_strings = 1
-let g:go_highlight_variable_declarations = 1
-let g:go_auto_sameids = 0 
-
-" go gloal settings
-let g:go_bin_path = expand("$HOME/.gvm/pkgsets/go1.2.1/global/bin/")
-let g:go_disable_autoinstall = 1
-let g:go_fmt_autosave = 1
-let g:go_fmt_command = "goimports"
-
-" disable vim-go :GoDef short cut (gd)
-" this is handled by LanguageClient [LC]
-let g:go_def_mapping_enabled = 0
-
 " coc global settings
 let g:coc_global_extensions = [
   \ 'coc-tsserver'
